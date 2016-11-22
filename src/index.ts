@@ -56,7 +56,7 @@ function makeOptions(loader: interfaces.Webpack) {
         instance: 'default',
         compiler: 'typescript',
         configFileName: 'tsconfig.json',
-        transpileOnly: false,
+        transpileOnly: true,
         visualStudioErrorFormat: false,
         compilerOptions: {},
         appendTsSuffixTo: [],
